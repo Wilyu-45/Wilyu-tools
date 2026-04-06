@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cupsensor</string>
+    <string name="select_video">选择视频</string>
+    <string name="shake_to_play">晃动一下，播放视频</string>
+    <string name="no_video_selected">未选择视频</string>
+    <string name="video_playing">播放中...</string>
+    <string name="video_paused">已停止</string>
+    <string name="shake_detected">检测到晃动！播放中...</string>
+</resources>

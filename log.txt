@@ -1,0 +1,44 @@
+--------------------------- PROCESS STARTED (5638) for package com.example.shakevideoplayer ----------------------------
+2026-04-06 13:11:19.405  3362-3960  ActivityManagerWrapper  com.miui.home                        E  getRecentTasks: mainTaskId=250   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=268435456 cmp=ComponentInfo{com.example.shakevideoplayer/com.example.shakevideoplayer.MainActivity} }
+2026-04-06 13:11:19.410  3362-3960  ActivityManagerWrapper  com.miui.home                        E  getRecentTasks: mainTaskId=250   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=268435456 cmp=ComponentInfo{com.example.shakevideoplayer/com.example.shakevideoplayer.MainActivity} }
+2026-04-06 13:11:19.571  5638-5638  SurfaceSyncer           com.example.shakevideoplayer         E  Failed to find sync for id=0
+2026-04-06 13:11:19.576  5638-5676  libEGL                  com.example.shakevideoplayer         E  pre_cache appList: ,,,
+2026-04-06 13:11:19.587  5638-5676  libboost                com.example.shakevideoplayer         E  fail to open node: No such file or directory
+2026-04-06 13:11:19.595  5638-5676  perf_hint               com.example.shakevideoplayer         E  Session creation failed, mPreferredRateNanos: -1
+2026-04-06 13:11:19.619  5225-5225  BaseInputMethodService  com.sohu.inputmethod.sogou.xiaomi    E  onStartInput app:com.example.shakevideoplayer restarting:false
+2026-04-06 13:11:23.919  3362-3960  ActivityManagerWrapper  com.miui.home                        E  getRecentTasks: mainTaskId=250   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=268435456 cmp=ComponentInfo{com.example.shakevideoplayer/com.example.shakevideoplayer.MainActivity} }
+2026-04-06 13:11:23.924  3362-3960  ActivityManagerWrapper  com.miui.home                        E  getRecentTasks: mainTaskId=250   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=268435456 cmp=ComponentInfo{com.example.shakevideoplayer/com.example.shakevideoplayer.MainActivity} }
+2026-04-06 13:11:24.710  5638-5638  ActivityThread          com.example.shakevideoplayer         E   fail in deliverResultsIfNeeded java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.os.Bundle.getString(java.lang.String)' on a null object reference
+2026-04-06 13:11:24.712  5111-6266  SuggestManager          com.miui.securitycenter.remote       E  openApp name = com.example.shakevideoplayer
+2026-04-06 13:11:24.764  5638-5638  SurfaceSyncer           com.example.shakevideoplayer         E  Failed to find sync for id=0
+2026-04-06 13:11:24.764  5638-5638  SurfaceSyncer           com.example.shakevideoplayer         E  Failed to find sync for id=1
+2026-04-06 13:11:24.793  5225-5225  BaseInputMethodService  com.sohu.inputmethod.sogou.xiaomi    E  onStartInput app:com.example.shakevideoplayer restarting:false
+2026-04-06 13:11:24.806  3362-3960  ActivityManagerWrapper  com.miui.home                        E  getRecentTasks: mainTaskId=250   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=268435456 cmp=ComponentInfo{com.example.shakevideoplayer/com.example.shakevideoplayer.MainActivity} }
+2026-04-06 13:11:24.809  3362-3960  ActivityManagerWrapper  com.miui.home                        E  getRecentTasks: mainTaskId=250   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=268435456 cmp=ComponentInfo{com.example.shakevideoplayer/com.example.shakevideoplayer.MainActivity} }
+2026-04-06 13:11:26.720  5638-5638  AndroidRuntime          com.example.shakevideoplayer         E  FATAL EXCEPTION: main
+                                                                                                    Process: com.example.shakevideoplayer, PID: 5638
+                                                                                                    java.lang.SecurityException: To use the sampling rate of 0 microseconds, app needs to declare the normal permission HIGH_SAMPLING_RATE_SENSORS.
+                                                                                                    	at android.hardware.SystemSensorManager$BaseEventQueue.enableSensor(SystemSensorManager.java:836)
+                                                                                                    	at android.hardware.SystemSensorManager$BaseEventQueue.addSensor(SystemSensorManager.java:756)
+                                                                                                    	at android.hardware.SystemSensorManager.registerListenerImpl(SystemSensorManager.java:250)
+                                                                                                    	at android.hardware.SensorManager.registerListener(SensorManager.java:833)
+                                                                                                    	at android.hardware.SensorManager.registerListener(SensorManager.java:740)
+                                                                                                    	at com.example.shakevideoplayer.MainActivity.enterFullscreenMode(MainActivity.kt:248)
+                                                                                                    	at com.example.shakevideoplayer.MainActivity.toggleDetection(MainActivity.kt:210)
+                                                                                                    	at com.example.shakevideoplayer.MainActivity.initViews$lambda$4(MainActivity.kt:124)
+                                                                                                    	at com.example.shakevideoplayer.MainActivity.$r8$lambda$IXd62brkX2v2lqvWJrXm4BfA-lc(Unknown Source:0)
+                                                                                                    	at com.example.shakevideoplayer.MainActivity$$ExternalSyntheticLambda0.onClick(Unknown Source:2)
+                                                                                                    	at android.view.View.performClick(View.java:7600)
+                                                                                                    	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1218)
+                                                                                                    	at android.view.View.performClickInternal(View.java:7577)
+                                                                                                    	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+                                                                                                    	at android.view.View$PerformClick.run(View.java:30186)
+                                                                                                    	at android.os.Handler.handleCallback(Handler.java:942)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:99)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:211)
+                                                                                                    	at android.os.Looper.loop(Looper.java:300)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8503)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:561)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:954)
+---------------------------- PROCESS ENDED (5638) for package com.example.shakevideoplayer ----------------------------
